@@ -1,0 +1,243 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Crimson+Text:ital@1&family=Dancing+Script:wght@600&family=EB+Garamond&family=M+PLUS+Rounded+1c:wght@300&family=Roboto:wght@100&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap');
+header{
+    width: 100%;
+    height: 500px;
+    background: url('https://images.hindustantimes.com/img/2023/01/10/1600x900/While-the-past-year-was-about-revenge-and-revival-_1673351689949.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    display: inline-block;
+    color: rgb(149, 15, 149);
+    font-family:'Cormorant Garamond', serif;
+    font-weight: bolder;
+}
+.leftdiv{
+    margin-top: 100px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 100px;
+    color: rgb(145, 47, 97);
+    text-align: center;
+    font-size:45px;
+}
+    /*  */
+.divhead{
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+font-weight: 500;
+color: rgb(226, 43, 226);
+font-weight: bolder;
+font-size: 60px;
+}
+.divhead span{
+    color: rgb(137, 43, 226);
+}
+.headcolr{
+    color: green;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    
+}
+
+#b2{
+    border-radius: 5px;
+    margin-left: 50%;
+}
+span{
+    color: aliceblue;
+}
+#headdiv{
+height: 400px;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+#b1{
+    margin-left: 50%;
+    margin-top: 100px;
+    border-radius: 100px;
+} 
+.card-img{
+    
+    width: 150%;
+    height: 200px;
+}
+.card-body{
+   
+    height: 370px;
+    
+}
+.card-body p{
+    text-align: justify;
+
+}
+.card-text p{
+ text-align: justify;
+}
+#cardmargin{
+    margin-left:15px;
+    margin-right: 15px;
+}
+#b2{
+    border-radius: 100px;
+    margin-left: 40%;
+    margin-top: 30px;
+    color: rgb(0, 0, 0)
+
+    
+}
+#b3{
+    z-index:5;
+    margin-left: 40%;
+    margin-top: 310px;
+    border-radius: 100px;
+position: absolute;
+    
+}
+.h3head{
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+  
+
+.card-img-top{
+    /* position: absolute; */
+    transition: transform .2s; 
+}
+
+.card-img-top:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+}  
+.imagetext{
+    width: 100%;
+    height: 400px;
+
+} 
+.imagetext img{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position:absolute;
+
+}
+.imagetext h1{
+    position: relative;
+    text-align: center;
+ top: 130px;
+ font-family: 'Oleo Script Swash Caps', cursive;
+ font-weight: bold;
+ color: rgb(58, 30, 243);
+ text-shadow:5px 5px  rgb(108, 104, 113);
+
+}
+.imagetext h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-style: italic;
+    position: relative;
+    top: 300px;0px;
+}
+.img5{
+    height: 315px;
+    width: 100%;
+    margin-left: 20px;
+}
+.img3{
+    /* height: 315px; */
+    width: 100%;
+    margin-left: 0px;
+    transition: transform .2s;  
+}
+.img3:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);  
+}
+.featuresItem img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+padding: 20px;
+position: absolute;
+
+
+}
+.featuresItem{
+    height: 270px;
+background-color: rgb(244, 238, 207);
+
+}
+#bodytext{
+  
+ margin-top: 170px;
+
+}
+/* .img5{
+width:250px;
+height:170px ;
+margin-top: 10px;
+border-radius:3px; */
+.fa-solid{
+    margin-left: 
+    display:inline-block;
+}
+.staricon{
+    margin-left: 70px;
+}
+.rating{
+    width:100%;
+    
+}
+.rating img{
+    width: 100%;
+    border-radius:5px;
+}
+.rating p{
+    margin-left: 20%;
+   line-height: 7px;
+}
+.footerbg{
+    background-color: rgb(86, 79, 159);
+    background-size: 500PX;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.footer ul i{
+display:inline-block;
+margin-left: 30px;
+}
+#footerimg{
+   
+    margin-top: 0px;
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+   margin-left:40PX;
+    background-color: rgb(86, 79, 159);
+}
+#footertext{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+  text-align: center;
+ /* margin-top:0px; */
+}
+.footer ul li:hover{
+    color: aliceblue;
+}
+.footer ul i:hover{
+    color:white;
+   
+}
+.carousel-item{
+width: 100%;
+height: 400px;
+margin-top: 0px;
+}
+
